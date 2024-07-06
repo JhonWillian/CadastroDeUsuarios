@@ -1,0 +1,71 @@
+/* Base */
+.app {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Form Block */
+.form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.form__container {
+  margin-bottom: 15px;
+}
+
+.form__title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form__input,
+.form__select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form__button {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.form__button--secondary {
+  background-color: #fff;
+  color: #ff9800;
+  border: 2px solid #ff9800;
+}
+
+.form__button:hover {
+  background-color: #e68900;
+}
+
+.form__button--secondary:hover {
+  background-color: #ff9800;
+  color: #fff;
+}
